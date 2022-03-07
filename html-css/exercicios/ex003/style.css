@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: #ada9ec;
+    width: 1680px;
+}
+h1 {
+    font-size: 46px;
+    color: darkslateblue;
+}
+p {
+    font-size: 32px;
+    color: brown;
+}
+
+#img1 {
+    position: relative;
+    top: -15px;
+    width: 400px;
+    height: 60px;
+}
+#img2 {
+    margin-top: -80px;
+    width: 400px;
+    height: auto;
+}
+#img3 {
+    width: 400px;
+    height: auto;
+}
