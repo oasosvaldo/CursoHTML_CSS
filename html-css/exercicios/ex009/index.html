@@ -8,8 +8,9 @@
     <title>Listas</title>
     <style>
         div {
-            width: 400px;
+            width: 200px;
             display: inline-block;
+            font-size: 12px;
         }
     </style>
 </head>
@@ -78,7 +79,7 @@
     </div>
     <div>
         <h2>Listas não ordenadas</h2>
-        <ul type="circle">
+        <ul type="circle"> <!-- disc, circle e square -->
             <li>Acordar
             <li>Ligar para o João
             <li>Tomar café
@@ -106,8 +107,54 @@
             <li>Dormir
         </ul>
     </div>
-    
-
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>    
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bross 3</li>
+                <li>Mario: Lost Lev</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguegem de macação para criação do conteúdo do site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguegem de marcação para a criação do disign de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de um site.</dd>
+    </dl>
 </body>
 
 </html>
