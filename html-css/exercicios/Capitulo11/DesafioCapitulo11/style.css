@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(24, 23, 23);
+    margin: 0 auto;
+    text-align: center;
+    width: 840px;
+}
+
+h1 {
+    color: azure;
+    font-size: 60px;
+}
+
+#videos {
+    width: 800px;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+a {
+    color: aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+}
