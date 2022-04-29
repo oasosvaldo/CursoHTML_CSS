@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            /*Todo posicionamento de um box em HRML é position: relative;*/
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+        #conteudo {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            /*Quando é positionÇ absolute; pode-se usar as propriedades left, top, right e bottom*/
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+            background-color: yellow;
+
+            /*Para alinihar o conteudo ao meio é preciso fazer uma tranformação com a propiredade transform: translate(esquerda, topo)*/
+            transform: translate(-50%, -50%);
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
