@@ -1,8 +1,17 @@
 body {
     text-align: center;
     background-color: #ada9ec;
-    width: 1680px;
+    width: 100vw;
 }
+
+.main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-size: 46px;
     color: darkslateblue;
